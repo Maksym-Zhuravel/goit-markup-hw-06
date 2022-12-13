@@ -455,13 +455,13 @@
             placeholder="Введіть текст"
           ></textarea>
 
-          <input type="checkbox" name="checkbox" class="modal-checkbox"/>
-          <label for="checkbox" class="modal-label">Погоджуюся з розсилкою та приймаю <a href="index.html" target="_blank" class="modal-link">Умови договору</a></label>
-
+          <input type="checkbox" id="checkbox" name="checkbox" class="modal-checkbox"/>
+          <label for="checkbox" class="modal-checkbox-label">Погоджуюся з розсилкою та приймаю <a href="index.html" target="_blank" class="modal-link">Умови договору</a></label>
           <button type="submit" class="modal-btn">Відправити</button>
         </form>
-        <button type="submit" class="modal-close" data-modal-close>
-          <svg width="11" height="11">
+
+        <button type="button" class="modal-close" data-modal-close>
+          <svg width="11" height="11" class="modal-close-icon">
             <use href="./images/icons.svg#icon-Vector"></use>
           </svg>
         </button>
